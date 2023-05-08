@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="website icon"
+      href="images/photo_2023-01-27_13-52-17.jpg"
+      type="jpg"
+    />
+  </head>
+  <body>
+    <section class="intro-block">
+      <header class="intro-block__header header">
+        <div class="name-letters">NB</div>
+        <!-- display in appropriate way! -->
+        <div class="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+          <!-- menu items -->
+          <div class="menu-items">
+            <!-- add icons to each option -->
+            <a href="#about-me" class="menu-items__about-me menu-item"
+              >About me</a
+            >
+            <a href="#skills-section" class="menu-items__skills menu-item"
+              >Skills</a
+            >
+            <a href="#education" class="menu-items__education menu-item"
+              >Education</a
+            >
+            <a href="#" class="menu-items__projects menu-item">Projects</a>
+            <a href="#" class="menu-items__contact-me menu-item">Contact me</a>
+          </div>
+        </div>
+      </header>
+      <!-- section part of intro -->
+      <section class="main">
+        <div class="background"></div>
+        <div class="description">
+          <h1 class="name-data">Natalie <br />Bratchykova</h1>
+          <h2 class="speciality-data">junior frontend developer</h2>
+        </div>
+      </section>
+    </section>
+    <!-- second section --- about me -->
+    <section class="about-me" id="about-me">
+      <h2 class="title">about me</h2>
+      <div class="about-me__container">
+        <!-- add link on my git hub profile -->
+        <p>
+          I am Ukrainian frontend developer. I started interesting in web in
+          2020, but real passion to it I felt in 2022. In that year I started
+          learning it deeply.
+        </p>
+        <p>
+          As a result of my education can be accepted this site, that shows some
+          part of my skills. If you become interested in my work, do not
+          hesitate to aware with my projects on
+          <a href="#" class="git-hub-link">Git Hub</a> or just scroll this site
+          further. There you can find different sites and application that might
+          attract you attention.
+        </p>
+        <p>
+          Speaking of tools stack, there used html, css, sass, bootstrap and js.
+          And now I extent my knowledge in fields, such as nodejs, react and
+          tailwind.
+        </p>
+      </div>
+    </section>
+    <!-- third section  --- skills -->
+    <section class="skills-section" id="skills-section">
+      <h2 class="skills-title title">skills</h2>
+      <section>
+        <div class="my-datas">
+          <div class="card">
+            <h3 class="education-data">html</h3>
+            <!-- scope start -->
+            <div class="progress-scope">
+              <div class="progress-line"></div>
+              <div class="progress-option">
+                <span class="progress-data data1">semantic</span>
+                <div class="progress-circle circle1"></div>
+              </div>
+              <div class="progress-option">
+                <div class="progress-circle circle2"></div>
+                <span class="progress-description description2">seo</span>
+              </div>
+            </div>
+            <!-- scope end -->
+          </div>
+          <div class="card">
+            <h3 class="education-data">css</h3>
+            <div class="progress-scope">
+              <div class="progress-line"></div>
+              <div class="progress-option">
+                <span class="progress-data data1">base css</span>
+                <div class="progress-circle circle1"></div>
+              </div>
+              <div class="progress-option">
+                <div class="progress-circle circle2"></div>
+                <span class="progress-description description2">sass</span>
+              </div>
+              <!-- 3 circle -->
+              <div class="progress-option">
+                <div class="progress-circle circle3"></div>
+                <span class="progress-description description3">Tailwind</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="education-data">js</h3>
+            <div class="progress-scope">
+              <div class="progress-line"></div>
+              <div class="progress-option">
+                <span class="progress-data data1">oop</span>
+                <div class="progress-circle circle1"></div>
+              </div>
+              <div class="progress-option">
+                <div class="progress-circle circle2"></div>
+                <span class="progress-description description2">async</span>
+              </div>
+              <!-- 3 circle -->
+              <div class="progress-option">
+                <div class="progress-circle circle3"></div>
+                <span class="progress-description description3">api</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- education -->
+    <section class="education-section" id="education">
+      <h2 class="education-title">Education</h2>
+      <section class="education-container">
+        <div class="education-university">
+          <h4 class="__title">University</h4>
+          <div class="button-group">
+            <button class="education-btn" id="education-btn1">Bachelor</button>
+            <div class="__info info1 _hidden">
+              <p>Years: 2021 - now</p>
+              <p>Speciality: Computer Science</p>
+              <p>University: NTUU KPI</p>
+              <p>Country: Ukraine</p>
+            </div>
+          </div>
+        </div>
+        <div class="education-courses">
+          <h4 class="__title">Courses</h4>
+          <div class="button-group">
+            <button class="education-btn" id="education-btn2">Edera</button>
+            <div class="__info info2 _hidden">
+              <p>Year: 2020</p>
+              <p>Speciality: HTML, CSS, JS development</p>
+              <p>Organisation: Edera</p>
+              <p>Country: Ukraine</p>
+            </div>
+          </div>
+
+          <div class="button-group">
+            <button class="education-btn" id="education-btn3">Udemy</button>
+            <div class="__info info3 _hidden">
+              <p>Year: 2023</p>
+              <p>Speciality: Complete JS course</p>
+              <p>Organisation: Udemy</p>
+              <p>Country: Ukraine</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- projects -->
+    <section class="project-section">
+      <h2 class="project_section__title">Projects</h2>
+      <div class="button_wrapper">
+        <a
+          class="button"
+          href="https://github.com/Natalie-Bratchykova"
+          target="_blank"
+          >See my projects
+        </a>
+      </div>
+    </section>
+    <!-- contacts -->
+    <section class="contacts_section">
+      <h2 class="contacts__title">My contacts</h2>
+      <section class="contact_container">
+        <div class="contact__group">
+          <a href="tel:+3800668428577" id="call"
+            ><img src="images/Call.png" alt=""
+          /></a>
+          <label for="call">You can call me</label>
+        </div>
+        <div class="contact__group">
+          <a href="mailto:2004natasha13@gmail.com"
+            ><img src="images/Email.png" alt=""
+          /></a>
+          <label for="">You can write me</label>
+        </div>
+        <div class="contact__group">
+          <a href="https://t.me/Nata_Chiko" target="_blank"
+            ><img src="images/telegram.png" alt=""
+          /></a>
+          <label for="">You can chat with me</label>
+        </div>
+      </section>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
